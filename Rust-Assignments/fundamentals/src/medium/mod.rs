@@ -1,0 +1,12 @@
+pub mod word_counter;
+pub mod unique_elements;
+pub mod enum_calculator;
+pub mod running_sum;
+pub mod error_propagation;
+pub mod custom_error;
+pub mod trait_area;
+pub mod generic_find_max;
+pub mod lifetime_longest;
+pub mod trait_default;
+pub mod hashmap_groupby;
+pub mod string_compression;
