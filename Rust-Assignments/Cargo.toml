@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "fundamentals",
+    "intermediate",
+    "async",
+]
+resolver = "2"
