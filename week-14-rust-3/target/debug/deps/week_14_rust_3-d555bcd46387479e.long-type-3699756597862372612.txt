@@ -1,0 +1,36 @@
+std::collections::binary_heap::Drain<'_, T, A>
+std::collections::binary_heap::IntoIter<T, A>
+std::collections::binary_heap::Iter<'_, T>
+std::collections::btree_map::IntoIter<K, V, A>
+std::collections::btree_map::IntoKeys<K, V, A>
+std::collections::btree_map::IntoValues<K, V, A>
+std::collections::btree_map::Iter<'_, K, V>
+std::collections::btree_map::IterMut<'_, K, V>
+std::collections::btree_map::Keys<'_, K, V>
+std::collections::btree_map::Values<'_, K, V>
+std::collections::btree_map::ValuesMut<'_, K, V>
+std::collections::btree_set::IntoIter<T, A>
+std::collections::btree_set::Iter<'_, T>
+std::collections::hash_map::Drain<'_, K, V, A>
+std::collections::hash_map::IntoIter<K, V, A>
+std::collections::hash_map::IntoKeys<K, V, A>
+std::collections::hash_map::IntoValues<K, V, A>
+std::collections::hash_map::Iter<'_, K, V>
+std::collections::hash_map::IterMut<'_, K, V>
+std::collections::hash_map::Keys<'_, K, V>
+std::collections::hash_map::Values<'_, K, V>
+std::collections::hash_map::ValuesMut<'_, K, V>
+std::collections::hash_set::Drain<'_, K, A>
+std::collections::hash_set::IntoIter<K, A>
+std::collections::hash_set::Iter<'_, K>
+std::collections::linked_list::IntoIter<T, A>
+std::collections::linked_list::Iter<'_, T>
+std::collections::linked_list::IterMut<'_, T>
+std::collections::vec_deque::Drain<'_, T, A>
+std::collections::vec_deque::IntoIter<T, A>
+std::collections::vec_deque::Iter<'_, T>
+std::collections::vec_deque::IterMut<'_, T>
+std::collections::vec_deque::Splice<'_, I, A>
+std::sys::process::env::CommandEnvs<'a>
+std::sys::process::unix::common::CommandArgs<'a>
+std::sys::process::unix::common::cstring_array::CStringIter<'a>
