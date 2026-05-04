@@ -1,0 +1,14 @@
+/mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/deps/serde-e8b73acbd9603cb5.d: /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/build/serde-6aeb262f7e7c722f/out/private.rs
+
+/mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/deps/libserde-e8b73acbd9603cb5.rlib: /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/build/serde-6aeb262f7e7c722f/out/private.rs
+
+/mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/deps/libserde-e8b73acbd9603cb5.rmeta: /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/build/serde-6aeb262f7e7c722f/out/private.rs
+
+/home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/aaravamit/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/build/serde-6aeb262f7e7c722f/out/private.rs:
+
+# env-dep:OUT_DIR=/mnt/c/Users/USER/Desktop/100xBootcamp/Web-3/week-16-rust-5/target/debug/build/serde-6aeb262f7e7c722f/out
