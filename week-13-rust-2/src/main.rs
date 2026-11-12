@@ -40,6 +40,8 @@ fn main() {
     // calculate area
 
     let rectangle = Shape::Rectangle(4.0, 5.0);
+    let circle = Shape::Circle(4.0);
 
     println!("Area of rectangle: {:?}", calculate_area(rectangle));
+    println!("Area of circle: {:?}", calculate_area(circle));
 }
