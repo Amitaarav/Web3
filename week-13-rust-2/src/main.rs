@@ -7,6 +7,8 @@ use structs::services::voting::is_allowed_to_vote;
 use structs::services::know::who_am_i;
 use enums::direction::Direction;
 use enums::direction_to_move::direction_to_move;
+use enums::calculate_area::calculate_area;
+use enums::shape::Shape;
 
 fn main() {
     let user = User {
@@ -34,4 +36,10 @@ fn main() {
     // enums
 
     direction_to_move(&Direction::Down);
+
+    // calculate area
+
+    let rectangle = Shape::Rectangle(4.0, 5.0);
+
+    println!("Area of rectangle: {:?}", calculate_area(rectangle));
 }
