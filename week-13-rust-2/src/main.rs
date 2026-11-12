@@ -1,9 +1,12 @@
+mod enums;
 mod structs;
 
 use structs::models::address::Address;
 use structs::models::user::User;
 use structs::services::voting::is_allowed_to_vote;
 use structs::services::know::who_am_i;
+use enums::direction::Direction;
+use enums::direction_to_move::direction_to_move;
 
 fn main() {
     let user = User {
@@ -27,4 +30,8 @@ fn main() {
     println!("birthdays: {:?}", user.birthdays);
     println!("Can vote: {}", is_allowed_to_vote(&user));
     println!("Know me: {}", who_am_i());
+
+    // enums
+
+    direction_to_move(&Direction::Down);
 }
