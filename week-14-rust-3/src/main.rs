@@ -1,5 +1,14 @@
 use std::fs;
+
+mod error_handling;
+use crate::error_handling::err_handling::err_handling;
+
+mod generics;
+use crate::generics::generics::generics;
+
 fn main() {
+    err_handling(); //
+
     let greeting_file_result = fs::read_to_string("hello.txt"); // type is Result enum of greeting_file_result
     // It contains the enum Result not content of file
     match greeting_file_result{
@@ -29,6 +38,10 @@ fn main() {
             Some(str) => println!("first a was found at {}",str),
             None => println!("Could not find an a inside the string"),
     }
+
+    // generics
+    generics();
+
 }
 
 fn find_last_a(str: String) -> Option<u32> {
