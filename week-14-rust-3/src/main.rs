@@ -6,6 +6,12 @@ use crate::error_handling::err_handling::err_handling;
 mod generics;
 use crate::generics::generics::generics;
 
+mod vec_generics;
+use crate::vec_generics::vec_generics::vec_generics;
+
+mod generics_structs;
+use crate::generics_structs::generics_structs::generics_structs;
+
 fn main() {
     err_handling(); //
 
@@ -41,6 +47,12 @@ fn main() {
 
     // generics
     generics();
+
+    vec_generics();
+
+    // struct generics
+
+    generics_structs();
 
 }
 
