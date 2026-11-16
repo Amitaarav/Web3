@@ -1,4 +1,8 @@
 use std::f32::consts::PI;
+
+mod closures;
+use crate::closures::closures::closures;
+
 trait Shape {
     // function declaration
     fn area(&self) -> f32;
@@ -75,6 +79,9 @@ fn main() {
     //
     say_hello!();
     hello();
+
+    // closures
+    closures();
 }
 
 // fn get_area_and_perimeter(s: impl Shape) -> (f32, f32){
