@@ -9,4 +9,5 @@ pub fn traits() {
     let x: Option<i32> = v.into_iter().nth(0);
 
     let r1 = Shape::Rect(1.0, 2.0);
+
 }
