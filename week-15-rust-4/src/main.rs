@@ -3,6 +3,9 @@ use std::f32::consts::PI;
 mod closures;
 use crate::closures::closures::closures;
 
+mod traits;
+use crate::traits::traits::trait_funtion;
+
 trait Shape {
     // function declaration
     fn area(&self) -> f32;
@@ -23,6 +26,7 @@ impl Shape for Rect{
     fn area(&self) -> f32{
         self.width * self.height
     }
+
     fn perimeter(&self) -> f32{
         (self.width + self.height) * 2.0
     }
@@ -51,15 +55,8 @@ macro_rules! create_function {
         }
     }
 }
-create_function!(hello);
 
-macro_rules! create_function {
-    ($func_name:ident) => {
-        fn $func_name(){
-            println!("Hello from {} ", stringify!($func_name));
-        }
-    }
-}
+create_function!(hello);
 
 //
 
@@ -82,6 +79,9 @@ fn main() {
 
     // closures
     closures();
+
+    trait_funtion();
+
 }
 
 // fn get_area_and_perimeter(s: impl Shape) -> (f32, f32){

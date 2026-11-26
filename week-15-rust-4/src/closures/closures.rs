@@ -87,4 +87,20 @@ pub fn closures(){
     println!("add_one_v2 : {}", add_one_v2(5, 3));
     println!("add_one_v3 : {}", add_one_v3(5, 3));
 
+    let example_closure = |x| x;
+
+    let s = example_closure(String::from("hello"));
+    let n = example_closure(56.to_string());
+    println!("{}", n);
+
+    // Defining and calling a closure that captures an immutable reference
+
+    let mut list = vec![1, 2, 3];
+    println!("Before defining closure: {list:?}");
+
+    let mut only_borrows = || list.push(7);
+    // println!("Before calling closure: {list:?}");
+
+    only_borrows();
+    println!("After calling closure: {list:?}");
 }
